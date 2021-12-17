@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asserts/imgs/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="asserts/css/messenger.css">
+    <title>Messenger</title>
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./asserts/imgs/logo.png" width="50" height="50" alt="">
+            </a>
+            <!-- logo -->
+            <!-- navbar menu start -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy & Safety</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Developers</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- navbar menu end -->
+        </div>
+    </nav>
+    <!-- navbar end -->
+    
+    <!-- body start -->
+    <section class="py-5">
+        <div class="container my-5">
+            <div class="row">
+                <!-- left content start -->
+                <div class="col-12 col-md-6 left-content">
+                    <h1 class="fw-bold">Hang out <br>anytime,<br>anywhere</h1>
+                    <p class="my-4 lead">Messenger makes it easy and fun to stay close to your <br> favorite people.</p>          
+                    <!-- login form start-->
+                    <form action="login.php" method="post">
+                        <input class="mb-3" type="text" name="user_name" id="login_name" placeholder="Email or phone number">
+                        <br>
+                        <input class="mb-4" type="password" name="password" id="login_password" placeholder="Password">
+                        <br>
+                        <a href="#" role="button" class="login_button text-center text-white fw-bold btn btn-md me-3">Login to your account</a>
+                        <a href="#" class="forget-pwd"><u>Forget your password?</u></a>
+                        <br>
+                        <input type="checkbox" name="keepMe" id="" class="my-4">
+                        <label for="keepMe">&nbsp; Keep me signed in</label>
+                    </form>
+                    <!-- login form end -->
+                    <!-- download app from -->
+                    <a href="#" class="mr-1">
+                        <img src="./asserts/imgs/apple-store-logo.svg" alt="apple logo" width="120px">
+                    </a>
+                    <a href="#">
+                        <img src="./asserts/imgs/ms-logo.png" alt="microsoft logo" width="100px">
+                    </a>
+                    <!-- download app from -->  
+                </div>
+                <!-- left content end -->
+                <!-- right content start -->
+                <div class="col-12 col-md-6 right-content">
+                    <img class="img-fluid" src="./asserts/imgs/right_img.png" alt="">
+                </div>
+                <!-- right content end -->
+                
+            </div>
+        </div>
+    </section>
+    <!-- body end -->
+    <!-- footer start -->
+    <footer class="fw-light container py-4" id="footer">
+        <div class="row">
+            <p class="col-sm col-lg-2"><span class="fw-bold">&copy; Facebook 2021.</span></p>
+            <p class="col-sm col-lg-5">The Apple and Google Play logos are trademarks of their respective owners.</p>
+            <p class="col-sm col-lg-1">Date Policy</p>
+            <p class="col-sm col-lg-1">Terms</p>
+            <p class="col-sm col-lg-1">English(US)</p>
+            <p class="col-sm col-lg-2">from <span class="fb_color fw-bold"><a href="www.facebook.com">FACEBOOK</a></span></p>
+        </div>
+    </footer>
+    <!-- footer end -->
+    
+    <script src="./asserts/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
